@@ -1,5 +1,4 @@
 #include "vec.h"
-#include <asm-generic/errno.h>
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
