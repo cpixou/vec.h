@@ -19,8 +19,6 @@ vector *vecmake(size_t elsz, size_t icap)
 
 int vecpush(vector *vc, void *val)
 {
-  if(!val)
-    return 0;
   if(vc->sz >= vc->cap)
   {
     size_t ncap = (vc->cap == 0) ? 2 : vc->cap * 2;
